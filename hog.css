@@ -1,0 +1,73 @@
+#bannerimage{
+    width: 100%;
+    height: 80vh;
+    background-image: url("C:\Users\crist\OneDrive\Documents\GitHub\Bath-Spa-Cristian\week2\img\banner.jpg");
+}
+.container{
+    display: block;
+    color: antiquewhite;
+text-align: right;
+
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+    font-size:100px;
+
+}
+body{
+    background-color: black;
+}
+h2{
+text-align: center;
+}
+h3{
+    display: flex;
+    text-align: left;
+    color: antiquewhite;
+}
+.altnume{
+    display: flex;
+    color: antiquewhite;
+text-align: left;
+
+
+}
+img {
+    
+    margin-left:auto;
+    display: block;
+   }
+   footer{
+    text-align: center;
+    color: antiquewhite;
+   }
+   nav {
+    width:100%;
+    overflow: auto;
+    text-align: center;
+    
+    
+    
+  }
+  nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 25px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 17px ; 
+    width: 20%;
+    text-align: center;
+
+  }
+p{
+    color:antiquewhite;
+}
+footer{
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: antiquewhite;
+}
