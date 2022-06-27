@@ -1,0 +1,30 @@
+.banner {
+    width: 100%;
+    height: 30vh;
+    background-image: url("C:\Users\crist\OneDrive\Documents\GitHub\Bath-Spa-Cristian\week3\img\982990.jpg") ;
+        background-repeat: no-repeat ; 
+    }
+h1{
+    color: aliceblue;
+    text-align: center;
+
+}
+label{
+    color: aliceblue;
+}
+  .banner2 {
+    width: 100%;
+    height: 40vh;
+    background-image:url("C:\Users\crist\OneDrive\Documents\GitHub\Bath-Spa-Cristian\week3\img\504664215.jpg")
+  }
+
+  li{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 25px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 17px ; 
+    width: 25%;
+    text-align: center;
+  }
