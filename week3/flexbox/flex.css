@@ -1,0 +1,28 @@
+/* ///universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fcontainer{
+    border: 8px solid rgb(0, 0, 0);
+    height: 600px;
+    display: flex;
+    /* flex-direction:row; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fitem{
+    background-color: darkcyan;
+    border: 2px solid black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+}
