@@ -1,55 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
 }
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, rgb(107, 244, 83), rgb(217, 237, 45));
 }
-.calculator{
-    flex: 0 0 95%;
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
-.screen{
-    width: 100%;
-    font-size: 7rem;
-    padding: 0.5rem;
-    background: rgb(41,41,56);
-    color: antiquewhite;
-    border: none;
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(240, 135, 135, 0.75);
 }
-button{
-    flex: 0 0 25%;
-    border: 1px solid black;
-    padding: 0.25rem 0 ;
-    transition: all 2s ease;
+.calculator-grid > button:hover {
+  background-color: rgba(224, 129, 129, 0.9);
 }
-button:hover{
-
+.span-two {
+  grid-column: span 2;
 }
-.button{
-    display: flex;
-    flex-wrap: wrap;
-    transition: all 2s ease;
-
+.output {
+  grid-column: 1/ -1;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
-
-.btn, .btn-clear, .btn-equal{
-    font-size: 4rem;
-    
+.output .previous-operand {
+  color: rgba(95, 95, 95, 0.75);
+  font-size: 1.5rem;
 }
-.btn-yellow{
-    background:  rgb(245, 146 , 62);
-    color: antiquewhite;
-}
-.btn-grey{
-    background: rgb(224,224,224);
-}
-.btn-equal{
-    background: greenyellow;
-}
-.btn-clear{
-    background: white;
+.output .current-operand {
+  color: white;
+  font-size: 2.5rem;
 }
